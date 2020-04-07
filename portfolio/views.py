@@ -6,7 +6,7 @@ def home(request):
     return HttpResponse("Portfolio home")
 
 def contact(request):
-    return HttpResponse("Contact Me: " + "" + "Jarquevious Nelson 415) 990-3487")
+    return HttpResponse("Contact Me")
 
 def greet_by_name(request, name):
     return HttpResponse(f"{name}!")
