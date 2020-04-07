@@ -9,4 +9,4 @@ def contact(request):
     return HttpResponse("Contact Me: " + "" + "Jarquevious Nelson 415) 990-3487")
 
 def greet_by_name(request, name):
-    return HttpResponse("Hello  , ")
+    return HttpResponse(f"{name}!")
